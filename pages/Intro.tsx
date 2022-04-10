@@ -130,9 +130,9 @@ export default function Intro() {
                 <Paper elevation={2} sx={{width:"20%"}}>
                     <Box sx={{width:"20%", height:"20%"}}>
 
-                    <img alt="ciu logo" src={prefix + '/ciulogo'}>
+                    <Image alt="ciu logo" src={ciulogo}>
 
-                    </img>
+                    </Image>
                     </Box>
                     <Typography variant="body1"> Ciu Bus Tracking System</Typography>
 
