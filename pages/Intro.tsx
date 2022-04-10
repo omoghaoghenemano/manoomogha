@@ -131,7 +131,7 @@ export default function Intro() {
                 <Paper elevation={2} sx={{width:"20%"}}>
                     <Box sx={{width:"20%", height:"20%"}}>
 
-                    <Image alt="ciu logo" src={prefix + ciulogo}>
+                    <Image alt="ciu logo" src={ciulogo}>
 
                     </Image>
                     </Box>
