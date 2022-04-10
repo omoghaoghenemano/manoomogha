@@ -10,6 +10,7 @@ import { Avatar } from '@mui/material'
 import { Button, Box } from '@mui/material'
 import ciulogo from '../images/ciulogo.png'
 console.log(manoimage)
+console.log(ciulogo)
 //adding my image next to the background
 
 const Item = styled(Paper)(({ theme }) => ({
