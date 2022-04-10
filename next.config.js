@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
- 
-basePath:'/manoomogha',
-assetPrefix:'/manoomogha'
+  reactStrictMode: true,
+  images:{
+    loader:"akamai",
+    path:"",
+  },
+  basePath:'/manoomogha',
+  assetPrefix:'/manoomogha'
 }
 
 module.exports = nextConfig
