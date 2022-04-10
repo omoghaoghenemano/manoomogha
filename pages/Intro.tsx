@@ -2,14 +2,13 @@
 import React from 'react'
 import { Typography,Grid, Paper, Divider } from '@mui/material'
 
-import manoimage from '../images/manoimage.jpeg'
+import manoimage from '../public/images/manoimage.jpeg'
 import Image from 'next/image'
 import Link from 'next/link'
-import backgroundimage from '../images/backgroundimage.png'
 import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
 import { Avatar } from '@mui/material'
 import { Button, Box } from '@mui/material'
-import ciulogo from '../images/ciulogo.png'
+import ciulogo from '../public/images/ciulogo.png'
 console.log(manoimage)
 //adding my image next to the background
 const Item = styled(Paper)(({ theme }) => ({
