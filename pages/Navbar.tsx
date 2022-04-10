@@ -113,7 +113,7 @@ export default function Homepage() {
      
           </SwipeableDrawer>
       <Typography sx={{ml: 7, display: { xs: 'flex', md: 'none', large:"none" },fontSize:{xs:"0.85em"}, }}>Oghenemano Omogha</Typography>
-      <Link href="/" style={{marginLeft:"30%"}}>
+      <Link href={path + "/"} style={{marginLeft:"30%"}}>
        <IconButton aria-label='Home'  sx={{mr: 2,  display: { xs: 'none', md: 'flex', large:"flex" }, color:"white"}}>
        
          <Typography>Home</Typography>
