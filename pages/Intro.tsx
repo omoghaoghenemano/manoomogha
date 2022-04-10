@@ -21,6 +21,7 @@ const Item = styled(Paper)(({ theme }) => ({
    
     color: theme.palette.text.secondary,
   }));
+  const prefix = 'manoomogha';
 export default function Intro() {
     return (
         <div style={{
@@ -48,7 +49,7 @@ export default function Intro() {
                     </Typography>
                     <Box sx={{width:{xs:"35%",md:"30%"}, position:"absolute", right:{xs:"5%", md:"11%"}, top:{xs:"2%",md:"2%"},  height: {xs:"10%", md:"30%"}}} >
                         {/* fix image size mano */}
-                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src={manoimage}></Image>
+                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src={prefix + manoimage}></Image>
                     </Box>
                   
                 </Box>
