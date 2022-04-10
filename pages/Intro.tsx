@@ -2,16 +2,15 @@
 import React from 'react'
 import { Typography,Grid, Paper, Divider } from '@mui/material'
 
-import manoimage from '../public/manoimage.jpeg'
+import manoimage from '../images/manoimage.jpeg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
 import { Avatar } from '@mui/material'
 import { Button, Box } from '@mui/material'
-import ciulogo from '../public/ciulogo.png'
+import ciulogo from '../images/ciulogo.png'
 console.log(manoimage)
 //adding my image next to the background
-
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
     ...theme.typography.body2,
@@ -51,7 +50,7 @@ export default function Intro() {
                     </Typography>
                     <Box sx={{width:{xs:"35%",md:"30%"}, position:"absolute", right:{xs:"5%", md:"11%"}, top:{xs:"2%",md:"2%"},  height: {xs:"10%", md:"30%"}}} >
                         {/* fix image size mano */}
-                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src={prefix + manoimage }></Image>
+                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src='/manoomogha/_next/static/media/manoimage.916918bb.jpeg'></Image>
                     </Box>
                   
                 </Box>
