@@ -49,7 +49,7 @@ export default function Intro() {
                     </Typography>
                     <Box sx={{width:{xs:"35%",md:"30%"}, position:"absolute", right:{xs:"5%", md:"11%"}, top:{xs:"2%",md:"2%"},  height: {xs:"10%", md:"30%"}}} >
                         {/* fix image size mano */}
-                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src={prefix + manoimage}></Image>
+                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src={prefix + '/images/manoomogha.jpeg'}></Image>
                     </Box>
                   
                 </Box>

@@ -8,7 +8,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
-
+const path = '/manoomogha'
 export default function Homepage() {
   const [state, setState] = React.useState({
     top: false,
