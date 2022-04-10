@@ -1,7 +1,7 @@
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    loader: 'default',
+    loader: 'akamai',
     path: '',
   },
   basePath:'/manoomogha',
