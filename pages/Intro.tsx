@@ -11,9 +11,7 @@ import { Button, Box } from '@mui/material'
 import ciulogo from '../public/ciulogo.png'
 console.log(manoimage)
 //adding my image next to the background
-const myLoader = ({ src, width, quality }) => {
-  return `https://omoghaoghenemano.github.io/manoomogha/${src}?w=${width}&q=${quality || 75}`
-}
+
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
     ...theme.typography.body2,
