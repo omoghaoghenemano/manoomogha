@@ -8,7 +8,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
-const path = '/manoomogha'
+let path = '/manoomogha'
 export default function Homepage() {
   const [state, setState] = React.useState({
     top: false,
@@ -74,7 +74,7 @@ export default function Homepage() {
      <List>
        
      <ListItem button >
-       <Link href="" style={{textDecoration:"none"}}>
+       <Link href={path + '/'} style={{textDecoration:"none"}}>
      <IconButton aria-label='Home'  sx={{color:"#08295e", }} >
          <HomeIcon/>
          <Typography sx={{ml:3}}>Home</Typography>
@@ -83,7 +83,7 @@ export default function Homepage() {
           </ListItem>
           <Divider />
               <ListItem button >
-           <Link href="/"style={{textDecoration:"none"}}>  <IconButton aria-label='Home'   sx={{color:"#08295e", }} >
+           <Link href={path + '/portfolio'}style={{textDecoration:"none"}}>  <IconButton aria-label='Home'   sx={{color:"#08295e", }} >
          <HomeIcon/>
          <Typography sx={{ml:3}}>Portfolio</Typography>
 
