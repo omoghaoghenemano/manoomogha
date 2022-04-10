@@ -22,6 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
   }));
   const prefix = '/manoomogha';
+  const path = '/manoomogha'
 export default function Intro() {
     return (
         <div style={{
@@ -49,7 +50,7 @@ export default function Intro() {
                     </Typography>
                     <Box sx={{width:{xs:"35%",md:"30%"}, position:"absolute", right:{xs:"5%", md:"11%"}, top:{xs:"2%",md:"2%"},  height: {xs:"10%", md:"30%"}}} >
                         {/* fix image size mano */}
-                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src={prefix + '/images/manoomogha.jpeg'}></Image>
+                        <Image alt="mano image" style={{borderRadius:"50%"}} layout="fill" src='/manoomogha/_next/static/media/manoimage.916918bb.jpeg'></Image>
                     </Box>
                   
                 </Box>
@@ -90,7 +91,7 @@ export default function Intro() {
       <br></br>
       <Box sx={{ width: "80%", margin: "auto" }}>
           {/* put a link color here */}
-          <Typography paragraph sx={{ color: "#https://www.youtube.com/embed/QdSHUwtEBN4", width:{xs:"100%", md:"60%"} }}>I have 4 years experience of coding and developing website for clients all over the world. Below is aquick overview of my main technical skills and technologies I use.Want to find out more about my experience? Check out my <Link href='' > online resume</Link>  and <Link href='' > project portfolio.</Link> </Typography>
+          <Typography paragraph sx={{ color: "#https://www.youtube.com/embed/QdSHUwtEBN4", width:{xs:"100%", md:"60%"} }}>I have 4 years experience of coding and developing website for clients all over the world. Below is aquick overview of my main technical skills and technologies I use.Want to find out more about my experience? Check out my <Link href= {path + ''} > online resume</Link>  and <Link href='' > project portfolio.</Link> </Typography>
       </Box>
    
 
