@@ -93,7 +93,7 @@ export default function Intro() {
       <br></br>
       <Box sx={{ width: "80%", margin: "auto" }}>
           {/* put a link color here */}
-          <Typography paragraph sx={{ color: "#https://www.youtube.com/embed/QdSHUwtEBN4", width:{xs:"100%", md:"60%"} }}>I have 4 years experience of coding and developing website for clients all over the world. Below is aquick overview of my main technical skills and technologies I use.Want to find out more about my experience? Check out my <Link href= {path + ''} > online resume</Link>  and <Link href='' > project portfolio.</Link> </Typography>
+          <Typography paragraph sx={{ color: "#https://www.youtube.com/embed/QdSHUwtEBN4", width:{xs:"100%", md:"60%"} }}>I have 4 years experience of coding and developing website for clients all over the world. Below is a quick overview of my main technical skills and technologies I use.Want to find out more about my experience? Check out my <Link href= {path + ''} > online resume</Link>  and <Link href='' > project portfolio.</Link> </Typography>
       </Box>
    
 
