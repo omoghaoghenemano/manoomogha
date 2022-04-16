@@ -9,6 +9,7 @@ import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
 import { Avatar } from '@mui/material'
 import { Button, Box } from '@mui/material'
 import ciulogo from '../images/ciulogo.png'
+import Chatbot from '../components/Chatbot'
 console.log(manoimage)
 console.log(ciulogo)
 //adding my image next to the background
@@ -196,6 +197,7 @@ export default function Intro() {
 </Grid>
       </Box>
       </div>
+      <Chatbot/>
           
         </div>
     )

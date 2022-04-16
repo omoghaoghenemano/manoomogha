@@ -93,7 +93,7 @@ export default function Homepage() {
               </ListItem>
               <Divider />
                   <ListItem button >
-           <Link href="manoomogha/contact" style={{textDecoration:"none"}}><IconButton aria-label='Home'  sx={{color:"#08295e", }} >
+           <Link href={path + "/contact"} style={{textDecoration:"none"}}><IconButton aria-label='Home'  sx={{color:"#08295e", }} >
          <PhoneIcon/>
          <Typography sx={{ml:3}}>Contact</Typography>
 
@@ -121,14 +121,14 @@ export default function Homepage() {
 
        </IconButton>
       </Link>
-      <Link href="manoomogha/portfolio">
+      <Link href={path + "/portfolio"}>
        <IconButton aria-label='Home' sx={{ mr: 2,display: { xs: 'none', md: 'flex', large:"flex" }, color:"white"}}>
 
          <Typography>Portfolio</Typography>
 
        </IconButton>
       </Link>
-      <Link href="manoomogha/contact">
+      <Link href={path + "/contact"}>
        <IconButton aria-label='Home' sx={{mr: 2, display: { xs: 'none', md: 'flex', large:"flex" }, color:"white"}}>
        
          <Typography>Contact</Typography>
@@ -136,7 +136,7 @@ export default function Homepage() {
        </IconButton>
       </Link>
  
-      <Link href="manoomogha/about">
+      <Link href={path + "/about"}>
        <IconButton aria-label='Home' sx={{ mr: 2, display: { xs: 'none', md: 'flex', large:"flex" },color:"white"}}>
          
          <Typography>About</Typography>

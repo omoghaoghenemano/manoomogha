@@ -275,6 +275,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@kommunicate/kommunicate-chatbot-plugin@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@kommunicate/kommunicate-chatbot-plugin/-/kommunicate-chatbot-plugin-0.0.5.tgz#c6e28695e369e077dbb8512ce7871ee2ddcb28c5"
+  integrity sha512-MrZPjKRibMl8Z81FzH7LrN+9evniOg7rRxDwg7J6tnqxEnGRvU1WD+mGKRlj9QT2sWS39hvcE4yA51+bwF+GOQ==
+
 "@mui/base@5.0.0-alpha.75":
   version "5.0.0-alpha.75"
   resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-alpha.75.tgz#0b352ff951765dfa83723fd1faf46a128dfe63ca"
