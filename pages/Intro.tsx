@@ -62,7 +62,7 @@ export default function Intro() {
                  
                     <Box sx={{width:"100%"}}>
 
-                    <Button variant='outlined' href="/portfolio" sx={{borderRadius:"10px",  color:"#08295e",fontSize:{xs:"0.6em", md:"0.7em"}, textTransform:"none"}}> View Portfolio</Button>
+                    <Button variant='outlined' href="manoomogha/portfolio" sx={{borderRadius:"10px",  color:"#08295e",fontSize:{xs:"0.6em", md:"0.7em"}, textTransform:"none"}}> View Portfolio</Button>
                     <Button variant='outlined' sx={{borderRadius:"10px",  ml:{xs:1, md:5}, color:"#08295e", fontSize:{xs:"0.6em", md:"0.7em"}, textTransform:"none"}}> View Resume</Button>
                     </Box>
 
@@ -131,9 +131,9 @@ export default function Intro() {
                 <Paper elevation={2} sx={{width:"20%"}}>
                     <Box sx={{width:"20%", height:"20%"}}>
 
-                    <Image alt="ciu logo" src={ciulogo}>
+                    <img style={{width:"50%",height:"50%"}} alt="ciu logo" src="/manoomogha/_next/static/media/ciulogo.9faaeb9b.png">
 
-                    </Image>
+                    </img>
                     </Box>
                     <Typography variant="body1"> Ciu Bus Tracking System</Typography>
 

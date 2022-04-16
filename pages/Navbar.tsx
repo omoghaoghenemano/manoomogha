@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import PhoneIcon from '@mui/icons-material/Phone';
+import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
@@ -84,7 +85,7 @@ export default function Homepage() {
           <Divider />
               <ListItem button >
            <Link href={path + '/portfolio'}style={{textDecoration:"none"}}>  <IconButton aria-label='Home'   sx={{color:"#08295e", }} >
-         <HomeIcon/>
+       <WorkOutlineIcon/>
          <Typography sx={{ml:3}}>Portfolio</Typography>
 
        </IconButton></Link>
@@ -92,7 +93,7 @@ export default function Homepage() {
               </ListItem>
               <Divider />
                   <ListItem button >
-           <Link href="m" style={{textDecoration:"none"}}><IconButton aria-label='Home'  sx={{color:"#08295e", }} >
+           <Link href="manoomogha/contact" style={{textDecoration:"none"}}><IconButton aria-label='Home'  sx={{color:"#08295e", }} >
          <PhoneIcon/>
          <Typography sx={{ml:3}}>Contact</Typography>
 
@@ -100,7 +101,7 @@ export default function Homepage() {
                   </ListItem>
                   <Divider />
                       <ListItem button >
-           <Link href="m" style={{textDecoration:"none"}}>  <IconButton aria-label='Home'  sx={{color:"#08295e", }} >
+           <Link href="manoomogha/about" style={{textDecoration:"none"}}>  <IconButton aria-label='Home'  sx={{color:"#08295e", }} >
          <InfoIcon/>
          <Typography sx={{ml:3}}>About</Typography>
 
@@ -120,14 +121,14 @@ export default function Homepage() {
 
        </IconButton>
       </Link>
-      <Link href="/portfolio">
+      <Link href="manoomogha/portfolio">
        <IconButton aria-label='Home' sx={{ mr: 2,display: { xs: 'none', md: 'flex', large:"flex" }, color:"white"}}>
 
          <Typography>Portfolio</Typography>
 
        </IconButton>
       </Link>
-      <Link href="/porfolio">
+      <Link href="manoomogha/porfolio">
        <IconButton aria-label='Home' sx={{mr: 2, display: { xs: 'none', md: 'flex', large:"flex" }, color:"white"}}>
        
          <Typography>Contact</Typography>
@@ -135,7 +136,7 @@ export default function Homepage() {
        </IconButton>
       </Link>
  
-      <Link href="/porfolio">
+      <Link href="manoomogha/porfolio">
        <IconButton aria-label='Home' sx={{ mr: 2, display: { xs: 'none', md: 'flex', large:"flex" },color:"white"}}>
          
          <Typography>About</Typography>
