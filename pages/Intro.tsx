@@ -10,8 +10,13 @@ import { Avatar } from '@mui/material'
 import { Button, Box } from '@mui/material'
 import ciulogo from '../images/ciulogo.png'
 import Chatbot from '../components/Chatbot'
-console.log(manoimage)
-console.log(ciulogo)
+import ReactWhatsapp from 'react-whatsapp';
+import Fab from '@mui/material/Fab';
+import AddIcon from '@mui/icons-material/Add';
+import NavigationIcon from '@mui/icons-material/Navigation';
+import FloatingWhatsApp from '../components/FloatingWhatsApp'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
 //adding my image next to the background
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -44,7 +49,7 @@ export default function Intro() {
                 <Box sx={{width:"100%"}}>
 
 
-                <Typography paragraph sx={{ color: "#08295e", width:{xs:"60%", md:"40%"} }}>I’m a Informatiom System Engineer in frontend and backend
+                <Typography paragraph sx={{ color: "#08295e", width:{xs:"60%", md:"40%"} }}>I’m an Informatiom System Engineer in frontend and backend
                     development for complex web apps. I write and code software
                     development on my blog. Want to know how I may help your
                     project? Check out my project portfolio and online resume  
@@ -197,7 +202,16 @@ export default function Intro() {
 </Grid>
       </Box>
       </div>
-      <Chatbot/>
+      <div>
+      <FloatingWhatsApp
+        phoneNumber="+905488456553"
+        accountName="Mano Omogha"
+        allowClickAway
+        notification
+        notificationDelay={60000} // 1 minute
+        notificationSound
+      />
+      </div>
           
         </div>
     )

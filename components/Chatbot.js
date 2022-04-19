@@ -1,7 +1,8 @@
 import React,{useEffect} from 'react'
 import kommunicate from '@kommunicate/kommunicate-chatbot-plugin'
+import ReactWhatsapp from 'react-whatsapp';
 export default function Chatbot() {
-    useEffect(() => {
+    /* useEffect(() => {
         (function(d, m){
             var kommunicateSettings = 
                 {"appId":"2e60df6d9a7d1a73e2574abf6c7f09819","popupWidget":true,"automaticChatOpenOnNavigation":true};
@@ -12,8 +13,8 @@ export default function Chatbot() {
         })(document, window.kommunicate || {});
       
     }, [])
-    
+     */
   return (
-    <div></div>
+    <div><ReactWhatsapp number="1-212-736-5000" message="Hello World!!!" /></div>
   )
 }
